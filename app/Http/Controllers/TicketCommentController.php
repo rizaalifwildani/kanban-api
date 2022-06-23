@@ -1,0 +1,86 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Http\Requests\StoreTicketCommentRequest;
+use App\Http\Requests\UpdateTicketCommentRequest;
+use App\Models\TicketComment;
+
+class TicketCommentController extends Controller
+{
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+        //
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
+    {
+        //
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \App\Http\Requests\StoreTicketCommentRequest  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(StoreTicketCommentRequest $request)
+    {
+        //
+    }
+
+    /**
+     * Display the specified resource.
+     *
+     * @param  \App\Models\TicketComment  $ticketComment
+     * @return \Illuminate\Http\Response
+     */
+    public function show(TicketComment $ticketComment)
+    {
+        //
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  \App\Models\TicketComment  $ticketComment
+     * @return \Illuminate\Http\Response
+     */
+    public function edit(TicketComment $ticketComment)
+    {
+        //
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \App\Http\Requests\UpdateTicketCommentRequest  $request
+     * @param  \App\Models\TicketComment  $ticketComment
+     * @return \Illuminate\Http\Response
+     */
+    public function update(UpdateTicketCommentRequest $request, TicketComment $ticketComment)
+    {
+        //
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  \App\Models\TicketComment  $ticketComment
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy(TicketComment $ticketComment)
+    {
+        //
+    }
+}
